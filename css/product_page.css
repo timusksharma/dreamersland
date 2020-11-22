@@ -1,0 +1,74 @@
+.pro .carousel {
+	margin: 30px 0;
+    background: none;
+}
+.pro .carousel .item {
+    text-align: center;
+	overflow: hidden;
+    max-height: 600px;
+}
+.pro .carousel .item img {
+	max-width: 100%;
+    margin: 0 auto; /* Align slide image horizontally center in Bootstrap v3 */
+}
+.pro .carousel .carousel-control {
+	width: 50px;
+    height: 50px;
+    background: #000;
+    margin: auto 0;
+	opacity: 0.8;
+}
+.pro .carousel .carousel-control:hover {
+	opacity: 0.9;
+}
+.pro .carousel .carousel-control i {
+    font-size: 41px;
+	margin-top: 3px;
+}
+
+.pro .carousel-indicators li, .carousel-indicators li.active {
+	margin-left: 4px;
+	margin-right: 4px;
+}
+.pro .carousel-indicators li.active {
+	background: #20b0b9;
+	border-color: #20b0b9;
+}
+.pro .carousel .nav {	
+	background: none;
+}
+.pro .carousel .nav a {
+	color: #333;
+	border-radius: 0;
+	font-size: 85%;
+	padding: 5px 5px;
+	background: transparent;
+}
+.pro .carousel .nav .nav-item.active a {
+	color: #fff;
+	background: #20b0b9;
+}
+
+
+#pro img{
+	max-height:450px;
+	max-width:350px;
+}
+#pro_con{
+	padding:40px;
+	background-color:#fff;
+	min-height:400px";
+}
+
+
+@media screen and (max-width: 400px){
+	#pro img{
+		max-height:350px;
+		max-width:250px;
+		background:red;
+		
+	}
+	#pro_con{
+		padding:10px;
+	}
+}

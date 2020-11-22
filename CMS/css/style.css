@@ -1,0 +1,54 @@
+.size {
+  
+  max-height: 300px;
+  overflow: auto;
+}
+.form_size{
+	 max-height: 600px;
+  overflow: auto;
+}
+
+.bordr_r{
+border: 1px solid red !important;	
+}
+
+
+
+
+.overlay_feature , .overlay_size{
+  height: 50%;
+  width: 50%;
+  display: none;
+  position: fixed;
+  z-index: 999999;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow: auto;
+}
+
+.overlay_feature-content {
+  position: relative;
+  top: 0%;
+  width: 80%;
+  text-align: center;
+  margin-top: 30px;
+  margin: auto;
+}
+
+.overlay_feature .closebtn , .overlay_size .closebtn {
+  position: absolute;
+  top: 0px;
+  right: 20px;
+  font-size: 40px;
+  cursor: pointer;
+  color: #EF5350;
+}
+
+.overlay_feature .closebtn:hover , .overlay_size .closebtn:hover {
+  color: #E53935;
+}
+
+
+
+

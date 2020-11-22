@@ -1,0 +1,35 @@
+/*Product Banner*/
+
+/*Product Grid*/
+/*.product-grid{
+	
+	padding-bottom:20px;
+	padding-top:20px;
+	     
+}*/
+
+.image{
+	position: relative;
+	background-color:#fff;
+	padding:0;
+	box-shadow: 2px 2px 4px 0 rgba(0,0,0,.08);
+	
+}
+.image:hover
+{cursor:pointer;
+	 opacity:1;
+}
+
+@media screen and (max-width: 768px) {
+	.product-grid{
+		margin: auto;
+    margin-bottom: 20px;
+		
+	}
+	.product-grid img{
+		height:140px;
+	}
+	
+}
+
+/*Banner Ends*/

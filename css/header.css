@@ -1,0 +1,269 @@
+*{
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+	background-color:#f1f3f6;
+	color: #212121;
+	line-height: 1.4;
+	font-size: 14px;
+	
+	font-family: "Open Sans", sans-serif;
+}
+
+
+/*Header Starts*/
+.navbar{
+	background-color:#fff;
+	padding:2px;
+      margin-bottom: 0;
+	 line-height:20px;
+      border-radius: 0;
+	 
+	      
+}
+.affix {
+      
+      
+       box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+	   z-index: 1000 !important;
+  }
+
+.navbar .container-fluid .navbar-header .navbar-brand
+{
+	color:#2962FF;
+	font-style: italic; 
+	font-weight:700;
+	font-size:20px;
+	
+}
+
+
+
+     
+#search {
+   height:36px;
+   width:100%; 
+   font-size: 14px;
+   padding: 0 16px;
+    border-radius: 2px 0 0 2px;    border: .5px solid #B0BEC5;
+	float:left;
+	background:none;
+	cursor: text;
+    outline: 0 none;
+}
+
+/* When the input field gets focus, change its width to 100% */
+#s_btn{
+	border-left: 2px solid #42A5F5;
+    border-radius: 0 2px 2px 0;
+	float:left;
+    height: 36px;
+    min-width: 46.98px;
+    cursor: pointer;
+    width: 46.98;
+    padding-top: 6px;
+    background-color: #42A5F5;
+	
+	color:#fff;
+	font-size:18px;
+	   
+    text-align: center;
+    box-sizing: border-box;
+    
+	
+}
+
+
+
+
+
+
+/*Header Ends*/
+
+/*Menu_nav*/
+.p_menu  a{
+	text-decoration:none;
+}
+
+.p_menu a h5{
+	font-weight:700;
+	color:#FFB74D;
+	font-size:15px;
+}
+
+.p_menu a h5:hover{
+	font-weight:700;
+	color:#EF6C00;
+}
+
+.p_menu li a{
+	color:#666;
+	font-size:14px;
+	
+}
+
+.p_menu li a:hover{
+	color:#0288D1;
+}
+
+.p_menu ul{
+	list-style:none;
+	padding-left:30px;
+}
+
+.p_nav .dropdown-toggle{
+	
+	 color:#999;
+	 text-decoration:none;
+	 padding:10px;
+	
+}
+.p_nav .dropdown{
+	padding-left:40px;
+}
+
+/*Menu_nav ends*/
+
+
+
+/*Scroll*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+
+}
+
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+   border-radius: 5px;
+   
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+ border-radius: 5px;  
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+/*Scroll*/
+
+
+
+
+/* Add a gray background color and some padding to the footer */
+    footer {
+      background-color:#172337;
+	  opacity:1;
+	  color:#fff;
+      padding: 25px;
+	  margin-top:50px;
+height:220px;
+    }
+	
+	
+	
+	
+	
+	
+	/*Search*/
+	
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 999999;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+}
+
+.overlay-content {
+  position: relative;
+  top: 15%;
+  width: 90%;
+  text-align: center;
+  margin-top: 30px;
+  margin: auto;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 0px;
+  right: 25px;
+  font-size: 60px;
+  cursor: pointer;
+  color: white;
+}
+
+.overlay .closebtn:hover {
+  color: #ccc;
+}
+
+.overlay input[type=text] {
+  padding: 15px;
+  font-size: 17px;
+  border: none;
+  float: left;
+  width: 100%;
+  background: white;
+}
+
+.overlay input[type=text]:hover {
+  background: #f1f1f1;
+}
+
+.overlay button {
+  float: left;
+  width: 20%;
+  padding: 15px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.overlay button:hover {
+  background: #bbb;
+}
+	
+	/*search end*/
+
+	
+	/*Scroll Div*/
+div .size {
+  width: 99%;
+  height: 110px;
+  overflow: auto;
+}
+
+.con{
+	padding-top:50px;
+	background:#fff;
+	height:50vh;
+}
+
+/*Search MEnu*/
+.search_k a{
+  white-space: nowrap; 
+  width:95%;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  
+}
+#search_menu hr , #search_menu_mobile hr {
+padding:0;
+margin:2px;	
+}
